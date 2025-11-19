@@ -61,8 +61,8 @@ It is designed for quick checks on folders containing **any number of MRI scans*
 1. Clone this repository:
 
    ```bash
-   git clone <your-repo-url>.git
-   cd <your-repo-folder>
+   git clone https://github.com/ZohaibS1995/mri_qc_anonymize.git
+   cd mri_qc_anonymize
 
 2. (Recommended) Create a virtual environment and activate it.
 3. Install dependencies:
