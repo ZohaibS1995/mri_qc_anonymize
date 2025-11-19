@@ -1,0 +1,32 @@
+# Can Enable Anonymisation and QC
+# Change Root and Output Paths
+
+anonymization:
+  enabled: true # To Change to enable or disable anonymization
+  input_root: 'E:\Zohaib\anonymisation\05-02-2020_CT brain' # To Change
+  output_root: 'E:\Zohaib\anonymisation\05-02-2020_CT brain_anonymisedv2' # To Change
+  log_dir: "logs_anonymization"
+
+  valid_extensions: [".dcm", ".dicom"]
+  delete_private_tags: true
+  error_csv_filename: "errors.csv"
+  extra_keep_keywords: []
+
+qc:
+  enabled: true # To Change to enable or disable QC controls
+  root: 'E:\Zohaib\anonymisation\05-02-2020_CT brain_anonymisedv2' # To Change
+  log_dir: 'E:\Zohaib\anonymisation\logs_qc_orig_v2' # To Change relative to the root directory
+
+  qc_json_filename: "anonymization_qc.json"
+  qc_json_detailed_filename: "anonymization_qc_detailed.json"
+  keep_keywords_json_filename: "anonymization_keep_keywords_qc.json"
+  valid_extensions: [".dcm", ".dicom"]
+  inspect_keep_keywords: true
+
+
+# Global Identifiers
+keep_keywords_file: keep_keywords.json
+
+identifiers:
+  keep_patient_id: true
+  keep_series_instance_uid: true

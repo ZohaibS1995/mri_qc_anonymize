@@ -1,0 +1,40 @@
+{
+  "keywords": [
+    "StudyDate",
+    "SeriesDate",
+    "AcquisitionDate",
+    "StudyDescription",
+    "SeriesDescription",
+
+    "ProtocolName",
+    "Modality",
+    "Manufacturer",
+    "ManufacturerModelName",
+    "MagneticFieldStrength",
+
+    "PixelSpacing",
+    "SliceThickness",
+    "SpacingBetweenSlices",
+    "Rows",
+    "Columns",
+    "PatientPosition",
+    "ImageOrientationPatient",
+    "ImagePositionPatient",
+
+    "ScanningSequence",
+    "SequenceVariant",
+    "ScanOptions",
+    "MRAcquisitionType",
+    "ImageType",
+    "BodyPartExamined",
+
+    "RepetitionTime",
+    "EchoTime",
+    "InversionTime",
+    "FlipAngle",
+
+    "AcquisitionDateTime",
+    "AcquisitionTime",
+    "StudyTime"
+  ]
+}
